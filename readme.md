@@ -43,6 +43,6 @@ quienes buscan una forma rápida de proteger mensajes en texto plano.
 Distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 🔗 Enlaces
-- [Repositorio en GitHub](https://github.com/tu-usuario/encriptador-texto)
+- [Repositorio en GitHub](https://github.com/ValenVR46/EncriptadorAlura)
 - [Documentación de Font Awesome](https://fontawesome.com/)
 - [Documentación de Google Fonts](https://fonts.google.com/)
