@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <!-- Sector de ingreso de texto en la izquierda -->
+        <section class="container-ingresotxt">
+            <a href=""><img src="./imagenes/logoAlura.png" alt="Logo de Alura Latam"></a>
+            
+            <div class="container-ingresotxt-box">
+                <textarea class="container-ingresotxt-box-txt" id="inputTexto" placeholder="Ingrese el texto aquí..."></textarea>
+            </div>
+            <div class="container-ingresotxt-condiciones">
+                <img src="./imagenes/vectorExclamacion.png" alt="circulo con signo de exclamación">
+                <span> Solo letras minúsculas y sin acentos.</span>
+            </div>
+            <div class="container-ingresotxt-buttons">
+                <button type="button" id="" class="container-ingresotxt-buttons-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="" class="container-ingresotxt-buttons-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <!-- Sector de salida de texto a la derecha -->
+        <section class="container-salidatxt">
+            <div class="container-salidatxt-inicio" id="outputContainer">
+                <img src="./imagenes/muñeco.png" alt="Imagen de muñeco" class="container-salidatxt-inicio-muñeco">
+                <p class="container-salidatxt-inicio-txt"><b>Ningún mensaje fue encontrado</b></p>
+                <span >Ingresa el texto que desees encriptar o desencriptar.</span>
+            </div>
+            <!-- Resultado de salida de texto -->
+            <textarea id="resultado" class="container-salidatxt-resultado" readonly></textarea>
+
+            <!-- Botón copiar debajo del sector de salida de texto -->
+            <button type="button" id="copiarButton" class="container-salidatxt-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Valentin Acosta - Alura 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
