@@ -16,7 +16,7 @@ quienes buscan una forma rápida de proteger mensajes en texto plano.
 - **Font**: [Inter](https://fonts.google.com/specimen/Inter) y [Mukta](https://fonts.google.com/specimen/Mukta) para fuentes modernas y legibles.
 
 ## 📦 Instalación
-1. **Clona el Repositorio**: git clone https://github.com/tu-usuario/encriptador-texto.git
+1. **Clona el Repositorio**: git clone https://github.com/ValenVR46/EncriptadorAlura
 2. **Navega al Directorio del Proyecto**: cd encriptador-texto
 3. **Abre el Archivo HTML: Abre el archivo index.html en tu navegador web para ver la aplicación en acción.**
 
